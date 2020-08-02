@@ -1,7 +1,7 @@
 # RU201 Scripts
 
 ## Install
-To install the script you'll need npm and Node.js 8.11+. To get the dependencies use:
+To install the script you'll need `npm` and Node.js 8.11+. To get the dependencies use:
 
 ```
 $ npm install
@@ -11,7 +11,7 @@ in this directory.
 
 ## Configuration
 
-First, you will need to create a simple JSON file for your connection credentials. This connection file is based on the node_redis config object allowing you specify host, password, port, etc. In the most basic configuration you would have just those three:
+First, you will need to create a simple JSON file for your connection credentials. This connection file is based on the node_redis config object allowing you specify host, password, port, etc. In the most basic configuration you would have just these:
 
 ```
 {
@@ -20,7 +20,7 @@ First, you will need to create a simple JSON file for your connection credential
 }
 ```
 
-Save this file outside of the path of this repo so you don't accidentally commit it to a public-facing site.
+Remember not to commit your copy of this file to your fork of this repo if it contains sensitive credentials.
 
 ## Running
 
