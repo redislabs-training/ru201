@@ -1,7 +1,19 @@
-# RU201 Scripts
+# Redis University RU201, RediSearch
 
-## Install
-To install the script you'll need `npm` and Node.js 8.11+. To get the dependencies use:
+## Introduction
+
+This is the sample data for RU201, [RediSearch](https://university.redislabs.com/courses/ru201/) at [Redis University](https://university.redislabs.com/).
+
+## Setup
+
+### Redis
+
+* You will need to [download and install Redis](https://redis.io/download).  Use version 5.0.3 or higher.
+* You will also need to [download and install RediSearch](https://oss.redislabs.com/redisearch/Quick_Start/).  Use version 1.4.2 or higher.
+
+### Node.js
+
+To install the script that loads the sample data into RediSearch, you'll need `npm` and Node.js 8.11+. To get the dependencies use:
 
 ```
 $ npm install
@@ -20,7 +32,7 @@ First, you will need to create a simple JSON file for your connection credential
 }
 ```
 
-Remember not to commit your copy of this file to your fork of this repo if it contains sensitive credentials.
+Remember: don't commit your copy of this file to your fork of this repo if it contains sensitive credentials.
 
 ## Running
 
@@ -33,6 +45,7 @@ When running you'll need to specify:
 - `drop` **Optional.** _This will drop the existing permits schema._
 - `totaldocs` **Optional.** _This will give you an accurate progress bar. The provided CSV has 121,828 docs_
 
+Example:
 
 ```
 $ node index.js --source ./General_Building_Permits.csv --connection ./connection.json --drop --totaldocs 121828
