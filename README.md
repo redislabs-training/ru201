@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the sample data for RU201, [RediSearch](https://university.redislabs.com/courses/ru201/) at [Redis University](https://university.redislabs.com/).
+This repo contains the sample data and Node.js load script for RU201, [RediSearch](https://university.redislabs.com/courses/ru201/) at [Redis University](https://university.redislabs.com/).
 
 ## Setup
 
