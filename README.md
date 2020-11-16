@@ -1,5 +1,11 @@
 # Redis University RU201, RediSearch
 
+## Course Retired
+
+**This course has been retired, and replaced with RU203, Querying, Indexing, and Full-Text Search.  [Sign up for RU203](https://university.redislabs.com/courses/ru203/).**
+
+---
+
 ## Introduction
 
 This repo contains the sample data and Node.js load script for RU201, [RediSearch](https://university.redislabs.com/courses/ru201/) at [Redis University](https://university.redislabs.com/).
