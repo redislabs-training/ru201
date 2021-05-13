@@ -77,3 +77,7 @@ You can check you have the right data by trying the following search from the re
 ## Data
 
 The data file provided (`General_Building_Permits.csv`) is pulled from the [Edmonton Open Data Portal](https://data.edmonton.ca) and is the [General Building Permits](https://data.edmonton.ca/Sustainable-Development/General-Building-Permits/24uj-dj8v) dataset pulled on May 16, 2018. This dataset is frequently updated, however we've frozen the data set in this course to provided a consistent course experience. 
+
+### Subscribe to our YouTube Channel
+
+We'd love for you to [check out our YouTube channel](https://youtube.com/redislabs), and subscribe if you want to see more Redis videos!
