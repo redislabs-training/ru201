@@ -2,20 +2,20 @@
 
 ## Course Retired
 
-**This course has been retired, and replaced with RU203, Querying, Indexing, and Full-Text Search.  [Sign up for RU203](https://university.redislabs.com/courses/ru203/).**
+**This course has been retired, and replaced with RU203, Querying, Indexing, and Full-Text Search.  [Sign up for RU203](https://university.redis.com/courses/ru203/).**
 
 ---
 
 ## Introduction
 
-This repo contains the sample data and Node.js load script for RU201, [RediSearch](https://university.redislabs.com/courses/ru201/) at [Redis University](https://university.redislabs.com/).
+This repo contains the sample data and Node.js load script for RU201, [RediSearch](https://university.redis.com/courses/ru201/) at [Redis University](https://university.redis.com/).
 
 ## Setup
 
 ### Redis
 
 * You will need to [download and install Redis](https://redis.io/download).  Use version 5.0.3 or higher.
-* You will also need to [download and install RediSearch](https://oss.redislabs.com/redisearch/Quick_Start/).  Use version 1.4.2 or higher.
+* You will also need to [download and install RediSearch](https://oss.redis.com/redisearch/Quick_Start/).  Use version 1.4.2 or higher.
 
 ### Node.js
 
@@ -80,4 +80,4 @@ The data file provided (`General_Building_Permits.csv`) is pulled from the [Edmo
 
 ### Subscribe to our YouTube Channel
 
-We'd love for you to [check out our YouTube channel](https://youtube.com/redislabs), and subscribe if you want to see more Redis videos!
+We'd love for you to [check out our YouTube channel](https://youtube.com/redisinc), and subscribe if you want to see more Redis videos!
